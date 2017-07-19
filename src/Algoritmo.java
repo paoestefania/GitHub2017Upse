@@ -10,12 +10,13 @@ public class Algoritmo {
 		boolean copia=true;
 		do{
 			System.out.println("Tu nota es"+i);
-			if(i>5)
+			if(i>20)
 			{
 				break;
 			}
 			i++;
 		}while(copia);
+		System.out.println("buenaOnda");
 	
 	}
 	public static void imprimirTesis(){
